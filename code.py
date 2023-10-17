@@ -6,7 +6,7 @@ import spacy
 nlp = spacy.load('en_core_web_sm')
 
 # Set up your OpenAI API key
-openai.api_key = 'enter_key'
+openai.api_key = 'enter_your_key'
 
 # Define A dictionary for storing information 
 information={"name":"","email":"","phone":""}
@@ -38,8 +38,6 @@ def extract_information(response_text):
     name=None
     phone =None
     email=None
-
-    print(names)
     
     if(len(phone_match)!=0):
         phone=phone_match[0]

@@ -6,7 +6,7 @@ import spacy
 nlp = spacy.load('en_core_web_sm')
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'enter_key'
 
 # Define A dictionary for storing information 
 information={"name":"","email":"","phone":""}
